@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════
-//  IS IT CHRIS? — The Lucid Property Game
+//  IS IT LUCID? — The Lucid Property Game
 //  Would Chris & Jem acquire this for a client?
 // ═══════════════════════════════════════════
 
@@ -346,11 +346,11 @@ function showResult(correct, property) {
 
   if (correct) {
     icon.textContent = '✅';
-    title.textContent = property.isChris ? "That's a Lucid Acquisition" : "Correct — Not Lucid";
+    title.textContent = property.isChris ? "That's Lucid" : "Correct — Not Lucid";
     msg.textContent = property.correctMsg;
   } else {
     icon.textContent = '❌';
-    title.textContent = property.isChris ? "Lucid Would Buy This" : "Not a Lucid Property";
+    title.textContent = property.isChris ? "Lucid Would Buy This" : "Not Lucid";
     msg.textContent = property.wrongMsg;
   }
 
